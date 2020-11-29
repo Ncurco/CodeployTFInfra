@@ -19,5 +19,4 @@ def upload_page():
     return render_template("example.html", form=form)
 
 if __name__ == "__main__":
-    print("inicio")
     app.run()
